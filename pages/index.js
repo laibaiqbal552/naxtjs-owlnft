@@ -6,6 +6,7 @@ import MetaOwls from "../src/MetaOwls";
 import OurPatners from "../src/OurPatners";
 import OurRarities from "../src/OurRarities";
 import VisionsValues from "../src/VisionsValues";
+import MeettheArtist from "../src/MeettheArtist";
 
 export default function Index() {
   return (
@@ -16,6 +17,7 @@ export default function Index() {
           <VisionsValues />
           <OurPatners />
           <OurRarities />
+          <MeettheArtist />
           <Copyright />
         </Box>
       </Container>
