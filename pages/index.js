@@ -5,6 +5,7 @@ import Copyright from "../src/Copyright";
 import MetaOwls from "../src/MetaOwls";
 import OurPatners from "../src/OurPatners";
 import OurRarities from "../src/OurRarities";
+import VisionsValues from "../src/VisionsValues";
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <Container maxWidth="lg">
         <Box sx={{ my: 4 }}>
           <MetaOwls />
+          <VisionsValues />
           <OurPatners />
           <OurRarities />
           <Copyright />

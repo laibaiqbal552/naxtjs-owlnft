@@ -57,7 +57,7 @@ export default function OurPatners() {
                 src="/images/coursera-vector-logo 1.png"
               />
             </Grid>
-            <Typography mb={4} mt={2} fontSize={18} align="center">
+            <Typography mb={4} mt={4} fontSize={18} align="center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               egestas mauris in augue ultricies pellentesque. Ut sit amet
               ullamcorper lectus. Nam quis lacinia lacus, porttitor pellentesque
@@ -95,7 +95,7 @@ export default function OurPatners() {
                 src="/images/Khan_Academy-Logo.wine 1.png"
               />
             </Grid>
-            <Typography mb={4} fontSize={18} align="center">
+            <Typography mb={4} mt={2} fontSize={18} align="center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               egestas mauris in augue ultricies pellentesque. Ut sit amet
               ullamcorper lectus. Nam quis lacinia lacus, porttitor pellentesque
@@ -111,7 +111,7 @@ export default function OurPatners() {
                 src="/images/microsoft-logo-png-2396 1.png"
               />
             </Grid>
-            <Typography mb={4} fontSize={18} align="center">
+            <Typography mb={4} mt={2} fontSize={18} align="center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
               egestas mauris in augue ultricies pellentesque. Ut sit amet
               ullamcorper lectus. Nam quis lacinia lacus, porttitor pellentesque
