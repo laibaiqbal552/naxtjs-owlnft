@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Copyright from "../src/Copyright";
 import MetaOwls from "../src/MetaOwls";
 import OurPatners from "../src/OurPatners";
+import OurRarities from "../src/OurRarities";
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
         <Box sx={{ my: 4 }}>
           <MetaOwls />
           <OurPatners />
+          <OurRarities />
           <Copyright />
         </Box>
       </Container>

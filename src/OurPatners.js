@@ -116,9 +116,6 @@ export default function OurPatners() {
             </Typography>
           </Grid>
         </Grid>
-        <Typography my={5} fontSize={18} align="center">
-          Each Meta Owl is ENTIRELY one of a kind.
-        </Typography>
       </Container>
     </ThemeProvider>
   );
