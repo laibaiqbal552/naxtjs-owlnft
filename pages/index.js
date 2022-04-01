@@ -7,20 +7,20 @@ import OurPatners from "../src/OurPatners";
 import OurRarities from "../src/OurRarities";
 import VisionsValues from "../src/VisionsValues";
 import MeettheArtist from "../src/MeettheArtist";
+import Welcome from "../src/Welcome";
 
 export default function Index() {
   return (
     <div style={{ backgroundColor: "#0f0f12" }}>
-      <Container maxWidth="lg">
-        <Box sx={{ my: 4 }}>
-          <MetaOwls />
-          <VisionsValues />
-          <OurPatners />
-          <OurRarities />
-          <MeettheArtist />
-          <Copyright />
-        </Box>
-      </Container>
+      <Box sx={{ my: 4 }}>
+        <Welcome />
+        <MetaOwls />
+        <VisionsValues />
+        <OurPatners />
+        <OurRarities />
+        <MeettheArtist />
+        <Copyright />
+      </Box>
     </div>
   );
 }

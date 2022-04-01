@@ -23,42 +23,44 @@ export default function Copyright() {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
-      <Typography
-        variant="body2"
-        style={{ color: "#ffffff", marginTop: "38px" }}
-        align="center"
-      >
-        {" © "}
-        <MuiLink color="inherit" href="https://mui.com/">
-          “2022 Meta Owls NFT. All rights reserved.”
-        </MuiLink>{" "}
-        {/* {new Date().getFullYear()}. */}
-      </Typography>
-      <Container maxWidth="lg" className={classes.copy}>
-        <Link href="/">
-          <Typography
-            style={{
-              color: "#FBFAF5",
-              textDecoration: "underline",
-              fontSize: "16px",
-            }}
-          >
-            Terms & Conditions
-          </Typography>
-        </Link>
+      <div style={{ borderTop: "1px solid #ffffff" }}>
+        <Typography
+          variant="body2"
+          style={{ color: "#ffffff", marginTop: "38px" }}
+          align="center"
+        >
+          {" © "}
+          <MuiLink color="inherit" href="https://mui.com/">
+            “2022 Meta Owls NFT. All rights reserved.”
+          </MuiLink>{" "}
+          {/* {new Date().getFullYear()}. */}
+        </Typography>
+        <Container maxWidth="lg" className={classes.copy}>
+          <Link href="/">
+            <Typography
+              style={{
+                color: "#FBFAF5",
+                textDecoration: "underline",
+                fontSize: "16px",
+              }}
+            >
+              Terms & Conditions
+            </Typography>
+          </Link>
 
-        <Link href="/">
-          <Typography
-            style={{
-              color: "#FBFAF5",
-              textDecoration: "underline",
-              fontSize: "16px",
-            }}
-          >
-            WhitePaper{" "}
-          </Typography>
-        </Link>
-      </Container>
+          <Link href="/">
+            <Typography
+              style={{
+                color: "#FBFAF5",
+                textDecoration: "underline",
+                fontSize: "16px",
+              }}
+            >
+              WhitePaper{" "}
+            </Typography>
+          </Link>
+        </Container>
+      </div>
     </ThemeProvider>
   );
 }
