@@ -51,6 +51,7 @@ export default function OurPatners() {
           <Grid item md={6} sm={12} className={classes.root}>
             <Grid item xs={12} display="flex" justifyContent="center">
               <Box
+                width="100%"
                 component="img"
                 alt="The house from the offer."
                 src="/images/coursera-vector-logo 1.png"
@@ -66,6 +67,7 @@ export default function OurPatners() {
           <Grid item md={6} sm={12} className={classes.root}>
             <Grid item xs={12} display="flex" justifyContent="center">
               <Box
+                width="100%"
                 component="img"
                 alt="The house from the offer."
                 src="/images/udemy-2-logo-svg-vector 1.png"
@@ -103,6 +105,7 @@ export default function OurPatners() {
           <Grid item md={6} sm={12} className={classes.root}>
             <Grid item xs={12} display="flex" justifyContent="center">
               <Box
+                width="100%"
                 component="img"
                 alt="The house from the offer."
                 src="/images/microsoft-logo-png-2396 1.png"

@@ -16,6 +16,7 @@ const useStyles = makeStyles({
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: "85px",
+    gap: "20px",
     marginTop: "133px",
   },
   "@media (max-width: 1024px)": {
@@ -35,7 +36,9 @@ export default function OurRarities() {
           Our Patners
         </Typography>
         <div className={classes.rities}>
-          <Typography style={{ color: "#D6CF12" }}>Eye Color</Typography>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Eye Color
+          </Typography>
           <div
             style={{
               height: "2px",
@@ -49,13 +52,16 @@ export default function OurRarities() {
         </div>
         <Grid item xs={12} display="flex" justifyContent="center">
           <Box
+            width="100%"
             component="img"
             alt="The house from the offer."
             src="/images/Group 249.png"
           />
         </Grid>
         <div className={classes.rities}>
-          <Typography style={{ color: "#D6CF12" }}>Eye Color</Typography>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Eye Wear
+          </Typography>
           <div
             style={{
               height: "2px",
@@ -69,6 +75,122 @@ export default function OurRarities() {
         </div>
         <Grid item xs={12} display="flex" justifyContent="center">
           <Box
+            width="100%"
+            component="img"
+            alt="The house from the offer."
+            src="/images/Group 249.png"
+          />
+        </Grid>
+        <div className={classes.rities}>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Clothing
+          </Typography>
+          <div
+            style={{
+              height: "2px",
+              backgroundColor: "#ffffff",
+              maxWidth: "632px",
+              margin: "auto",
+              width: "100%",
+            }}
+          ></div>
+          <Typography>10</Typography>
+        </div>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Box
+            width="100%"
+            component="img"
+            alt="The house from the offer."
+            src="/images/Group 249.png"
+          />
+        </Grid>
+        <div className={classes.rities}>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Neck
+          </Typography>
+          <div
+            style={{
+              height: "2px",
+              backgroundColor: "#ffffff",
+              maxWidth: "632px",
+              margin: "auto",
+              width: "100%",
+            }}
+          ></div>
+          <Typography>10</Typography>
+        </div>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Box
+            width="100%"
+            component="img"
+            alt="The house from the offer."
+            src="/images/Group 249.png"
+          />
+        </Grid>
+        <div className={classes.rities}>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Head
+          </Typography>
+          <div
+            style={{
+              height: "2px",
+              backgroundColor: "#ffffff",
+              maxWidth: "632px",
+              margin: "auto",
+              width: "100%",
+            }}
+          ></div>
+          <Typography>10</Typography>
+        </div>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Box
+            width="100%"
+            component="img"
+            alt="The house from the offer."
+            src="/images/Group 249.png"
+          />
+        </Grid>
+        <div className={classes.rities}>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Back
+          </Typography>
+          <div
+            style={{
+              height: "2px",
+              backgroundColor: "#ffffff",
+              maxWidth: "632px",
+              margin: "auto",
+              width: "100%",
+            }}
+          ></div>
+          <Typography>10</Typography>
+        </div>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Box
+            width="100%"
+            component="img"
+            alt="The house from the offer."
+            src="/images/Group 249.png"
+          />
+        </Grid>
+        <div className={classes.rities}>
+          <Typography style={{ color: "#D6CF12", fontWeight: "600" }}>
+            Accessories
+          </Typography>
+          <div
+            style={{
+              height: "2px",
+              backgroundColor: "#ffffff",
+              maxWidth: "632px",
+              margin: "auto",
+              width: "100%",
+            }}
+          ></div>
+          <Typography>10</Typography>
+        </div>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Box
+            width="100%"
             component="img"
             alt="The house from the offer."
             src="/images/Group 249.png"
