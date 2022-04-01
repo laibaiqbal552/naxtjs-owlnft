@@ -56,7 +56,16 @@ export default function Welcome() {
                 innovative collection of NFT's. Connect your wallet and Discover
                 our Brand
               </Typography>
-              <div style={{ display: "flex", gap: "30px", marginTop: "72px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  gap: "30px",
+                  flexWrap: "wrap",
+                  marginTop: "72px",
+                }}
+                md={{ justifyContent: "start" }}
+                sm={{ justifyContent: "center" }}
+              >
                 <button
                   style={{
                     background: "transparent",
@@ -74,7 +83,7 @@ export default function Welcome() {
                     background: "transparent",
                     border: "2px solid #ffffff",
                     color: "#ffffff",
-                    padding: "18px 50px",
+                    padding: "18px 60px",
                     fontWeight: "700",
                     fontSize: "18px",
                   }}

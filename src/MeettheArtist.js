@@ -13,10 +13,12 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { makeStyles } from "@mui/styles";
 import Button from "@mui/material/Button";
 import { autocompleteClasses } from "@mui/material";
+import { spacing } from "@mui/system";
 const useStyles = makeStyles({
   meet: {
     paddingBottom: "149px",
     display: "flex",
+    gap: "20px",
     flexWrap: "wrap",
     justifyContent: "space-between",
     flexDirection: "row",
@@ -31,7 +33,8 @@ const useStyles = makeStyles({
   },
   "@media (max-width: 768px)": {
     meet: {
-      paddingBottom: "50px",
+      justifyContent: "center",
+      paddingBottom: "0",
     },
   },
 });
@@ -52,6 +55,7 @@ export default function MeettheArtist() {
                 width: "303px",
                 border: "2px solid #ffffff",
                 padding: "20px",
+                marginTop: "20px",
               }}
             >
               <Grid item xs={12} display="flex" pb={2} justifyContent="center">
@@ -79,6 +83,7 @@ export default function MeettheArtist() {
                 width: "303px",
                 border: "2px solid #ffffff",
                 padding: "20px",
+                marginTop: "20px",
               }}
             >
               <Grid item xs={12} display="flex" pb={2} justifyContent="center">
@@ -110,6 +115,7 @@ export default function MeettheArtist() {
                 width: "303px",
                 border: "2px solid #ffffff",
                 padding: "20px",
+                marginTop: "20px",
               }}
             >
               <Grid item xs={12} display="flex" pb={2} justifyContent="center">
@@ -137,7 +143,9 @@ export default function MeettheArtist() {
                 width: "303px",
                 border: "2px solid #ffffff",
                 padding: "20px",
+                marginTop: "20px",
               }}
+              sm={{ mt: "20px" }}
             >
               <Grid item xs={12} display="flex" pb={2} justifyContent="center">
                 <Box
@@ -178,6 +186,7 @@ export default function MeettheArtist() {
                 width: "303px",
                 border: "2px solid #ffffff",
                 padding: "20px",
+                marginTop: "20px",
               }}
             >
               <Grid item xs={12} display="flex" pb={2} justifyContent="center">
