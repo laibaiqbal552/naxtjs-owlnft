@@ -34,7 +34,7 @@ export default function OurRarities() {
         <Typography my={5} style={{ fontSize: "35px", fontWeight: "800" }}>
           Our Patners
         </Typography>
-        <div className={classes.root}>
+        <div className={classes.rities}>
           <Typography style={{ color: "#D6CF12" }}>Eye Color</Typography>
           <div
             style={{
@@ -54,7 +54,7 @@ export default function OurRarities() {
             src="/images/Group 249.png"
           />
         </Grid>
-        <div className={classes.root}>
+        <div className={classes.rities}>
           <Typography style={{ color: "#D6CF12" }}>Eye Color</Typography>
           <div
             style={{
