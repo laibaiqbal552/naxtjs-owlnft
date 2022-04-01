@@ -63,7 +63,7 @@ export default function VisionsValues() {
               m: 1,
             }}
           >
-            <div style={{ width: "300px", margin: "auto" }}>
+            <div style={{ width: "300px" }}>
               <Grid item xs={12} display="flex" justifyContent="center">
                 <Box
                   width="100%"
@@ -72,6 +72,19 @@ export default function VisionsValues() {
                   src="/images/Pub Quiz 5.png"
                 />
               </Grid>
+              <Typography fontWeight={700} align="center">
+                Into the Metaverse
+              </Typography>
+              <Typography
+                style={{
+                  color: "#D550EA",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                }}
+                align="center"
+              >
+                (Moving Land Gif)
+              </Typography>
               <Typography mb={4} mt={2} fontSize={18} align="center">
                 Building and creating an enjoyable experience in the Metaverse
                 requires a set number of factors and challenges the community
@@ -82,7 +95,7 @@ export default function VisionsValues() {
                 the upcoming future
               </Typography>
             </div>
-            <div style={{ width: "300px", margin: "auto" }}>
+            <div style={{ width: "300px" }}>
               <Grid item xs={12} display="flex" justifyContent="center">
                 <Box
                   width="100%"
@@ -91,6 +104,19 @@ export default function VisionsValues() {
                   src="/images/Ethereum 1.png"
                 />
               </Grid>
+              <Typography fontWeight={700} align="center">
+                Future Mints & Airdrops
+              </Typography>
+              <Typography
+                style={{
+                  color: "#D550EA",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                }}
+                align="center"
+              >
+                (Jet Dropping an NFT Gif)
+              </Typography>
               <Typography mb={4} mt={2} fontSize={18} align="center">
                 Building and creating an enjoyable experience in the Metaverse
                 requires a set number of factors and challenges the community
@@ -101,7 +127,7 @@ export default function VisionsValues() {
                 the upcoming future
               </Typography>
             </div>
-            <div style={{ width: "300px", margin: "auto" }}>
+            <div style={{ width: "300px" }}>
               <Grid item xs={12} display="flex" justifyContent="center">
                 <Box
                   width="100%"
@@ -110,6 +136,19 @@ export default function VisionsValues() {
                   src="/images/T-shirt 1.png"
                 />
               </Grid>
+              <Typography fontWeight={700} align="center">
+                Coummunity Wallet
+              </Typography>
+              <Typography
+                style={{
+                  color: "#D550EA",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                }}
+                align="center"
+              >
+                (wallet opening gif)
+              </Typography>
               <Typography mb={4} mt={2} fontSize={18} align="center">
                 Building and creating an enjoyable experience in the Metaverse
                 requires a set number of factors and challenges the community
@@ -120,7 +159,7 @@ export default function VisionsValues() {
                 the upcoming future
               </Typography>
             </div>
-            <div style={{ width: "300px", margin: "auto" }}>
+            <div style={{ width: "300px" }}>
               <Grid item xs={12} display="flex" justifyContent="center">
                 <Box
                   width="100%"
@@ -129,6 +168,19 @@ export default function VisionsValues() {
                   src="/images/T-shirt 1.png"
                 />
               </Grid>
+              <Typography fontWeight={700} align="center">
+                Safety and education
+              </Typography>
+              <Typography
+                style={{
+                  color: "#D550EA",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                }}
+                align="center"
+              >
+                (shield with circle ring spinning around gif)
+              </Typography>
               <Typography mb={4} mt={2} fontSize={18} align="center">
                 Building and creating an enjoyable experience in the Metaverse
                 requires a set number of factors and challenges the community
@@ -139,15 +191,28 @@ export default function VisionsValues() {
                 the upcoming future
               </Typography>
             </div>
-            <div style={{ width: "300px", margin: "auto" }}>
+            <div style={{ width: "300px" }}>
               <Grid item xs={12} display="flex" justifyContent="center">
                 <Box
                   width="100%"
                   component="img"
                   alt="The house from the offer."
-                  src="/images/T-shirt 1.png"
+                  src="/images/Pub Quiz 5.png"
                 />
               </Grid>
+              <Typography fontWeight={700} align="center">
+                Premium Access
+              </Typography>
+              <Typography
+                style={{
+                  color: "#D550EA",
+                  fontSize: "15px",
+                  fontWeight: "600",
+                }}
+                align="center"
+              >
+                (shield with circle ring spinning around gif)
+              </Typography>
               <Typography mb={4} mt={2} fontSize={18} align="center">
                 Building and creating an enjoyable experience in the Metaverse
                 requires a set number of factors and challenges the community
